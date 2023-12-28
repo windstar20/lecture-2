@@ -19,7 +19,6 @@ const SurveyChart = () => {
             })
     }, [])
 
-
     const toggleFilter = (questionIndex, itemIndex) => {
         let _filter = Object.assign({}, filter);
         if(_filter.hasOwnProperty(questionIndex) && _filter[questionIndex] === itemIndex) {
